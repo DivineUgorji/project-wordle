@@ -1,5 +1,6 @@
-import Game from '../Game';
-import Header from '../Header';
+import Game from "../Game";
+import GuessInput from "../GuessInput";
+import Header from "../Header";
 
 function App() {
   return (
@@ -9,6 +10,10 @@ function App() {
       <div className="game-wrapper">
         <Game />
       </div>
+
+      {/* <div className="guess-input-wrapper">
+        <GuessInput />
+      </div> */}
     </div>
   );
 }
